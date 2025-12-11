@@ -2,6 +2,13 @@
   "name": "@gkd-kit/subscription-template",
   "version": "0.0.0",
   "type": "module",
+  "gkd": {
+    "outDir": "dist",
+    "file": "gkd.chiyu.json5",
+    "versionFile": "gkd.version.json5",
+    "changelog": "CHANGELOG.md",
+    "README.md": "README.md"
+  },
   "scripts": {
     "postinstall": "simple-git-hooks",
     "format": "prettier --cache --write ./**/*.{js,cjs,mjs,ts,jsx,tsx,json}",
@@ -53,12 +60,5 @@
   "packageManager": "pnpm@10.22.0",
   "engines": {
     "node": ">=22"
-  },
-  "gkd": {
-    "outDir": "dist",
-    "file": "gkd.chiyu.json5",
-    "versionFile": "gkd.version.json5",
-    "changelog": "CHANGELOG.md",
-    "README.md": "README.md"
   }
 }
