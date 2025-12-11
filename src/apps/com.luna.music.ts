@@ -46,7 +46,7 @@ export default defineGkdApp({
       matchTime: 5000,
       rules: [
         {
-          matches: ['[vid="gom"]'],
+          matches: '[vid="gom"]',
           fastQuery: true,
           snapshotUrls: 'https://i.gkd.li/i/24096594',
           activityIds: ['com.luna.biz.main.main.MainActivity'],
@@ -61,7 +61,7 @@ export default defineGkdApp({
       matchTime: 5000,
       rules: [
         {
-          matches: ['[vid="fvl"]'],
+          matches: '[vid="fvl"]',
           fastQuery: true,
           snapshotUrls: 'https://i.gkd.li/i/24096812',
         },
