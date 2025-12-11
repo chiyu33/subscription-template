@@ -41,9 +41,9 @@ https://raw.githubusercontent.com/chiyu33/GKD-CY/refs/heads/main/dist/gkd.chiyu.
 
 ## 说明
 
-当前版本: v2
+当前版本: v4
 
-当前订阅文件已适配 606 个 APP, 共有 1383 规则组
+当前订阅文件已适配 606 个 APP, 共有 1385 规则组
 
 查看 [适配 APP 列表](./dist/README.md)
 
