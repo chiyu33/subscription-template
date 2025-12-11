@@ -13,10 +13,16 @@ export default defineGkdApp({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '@LinearLayout[clickable=true] > TextView[text="跳过"]',
-          snapshotUrls: 'https://i.gkd.li/import/12472630',
+          snapshotUrls: ['https://i.gkd.li/import/12472630'],
         },
-        '@View[id=null] + ImageView + FrameLayout TextView[text=`向上滑动或点击查看`]', // 缺少快照
+        {
+          key: 1,
+          matches:
+            '@[name="android.view.View"] < * >4 [text="向上滑动或点击按钮种花"] ',
+          snapshotUrls: ['https://i.gkd.li/i/24096161'],
+        },
       ],
     },
     {
